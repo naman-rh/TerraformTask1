@@ -94,7 +94,7 @@ provisioner "remote-exec" {
       "sudo mkfs.ext4  /dev/xvdh",
       "sudo mount  /dev/xvdh  /var/www/html",
       "sudo rm -rf /var/www/html/*",
-      "sudo git clone https://github.com/dugarvineet211/taskpage.git /var/www/html/",
+      "sudo git clone https://github.com/********/taskpage.git /var/www/html/",
 	"sudo mv index.html /var/www/html",
 	"sudo service httpd restart"
 	
